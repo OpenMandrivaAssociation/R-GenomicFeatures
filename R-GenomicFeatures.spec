@@ -10,12 +10,17 @@ Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-IRanges R-GenomicRanges R-AnnotationDbi 
-Requires:         R-methods R-DBI R-RSQLite R-IRanges R-GenomicRanges R-Biostrings R-rtracklayer R-biomaRt R-RCurl R-utils R-Biobase 
-Requires:         R-rtracklayer R-biomaRt R-org.Mm.eg.db R-Biostrings R-BSgenome R-BSgenome.Hsapiens.UCSC.hg18 R-BSgenome.Celegans.UCSC.ce2 R-RUnit 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-IRanges R-GenomicRanges R-AnnotationDbi
-BuildRequires:    R-methods R-DBI R-RSQLite R-IRanges R-GenomicRanges R-Biostrings R-rtracklayer R-biomaRt R-RCurl R-utils R-Biobase 
-BuildRequires:    R-rtracklayer R-biomaRt R-org.Mm.eg.db R-Biostrings R-BSgenome R-BSgenome.Hsapiens.UCSC.hg18 R-BSgenome.Celegans.UCSC.ce2 R-RUnit 
+Requires:         R-IRanges R-GenomicRanges R-AnnotationDbi R-methods R-DBI
+Requires:         R-RSQLite R-Biostrings R-rtracklayer R-biomaRt R-RCurl
+Requires:         R-utils R-Biobase R-org.Mm.eg.db R-BSgenome
+Requires:         R-BSgenome.Hsapiens.UCSC.hg18 R-BSgenome.Celegans.UCSC.ce2
+Requires:         R-RUnit
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-IRanges R-GenomicRanges R-AnnotationDbi R-methods R-DBI
+BuildRequires:    R-RSQLite R-Biostrings R-rtracklayer R-biomaRt R-RCurl
+BuildRequires:    R-utils R-Biobase R-org.Mm.eg.db R-BSgenome
+BuildRequires:    R-BSgenome.Hsapiens.UCSC.hg18 R-BSgenome.Celegans.UCSC.ce2
+BuildRequires:    R-RUnit 
 
 %description
 A set of tools and methods for making and manipulating transcript centric
