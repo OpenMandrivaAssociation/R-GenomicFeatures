@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          1.6.8
-Release:          1
+Release:          2
 Summary:          Tools for making and manipulating transcript centric annotations
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
