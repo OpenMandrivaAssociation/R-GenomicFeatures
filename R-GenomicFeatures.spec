@@ -8,7 +8,7 @@ Release:          2
 Summary:          Tools for making and manipulating transcript centric annotations
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-IRanges R-GenomicRanges R-AnnotationDbi R-methods R-DBI
 Requires:         R-RSQLite R-Biostrings R-rtracklayer R-biomaRt R-RCurl
